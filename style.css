@@ -5,34 +5,35 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.header__image {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.header__image img {
   width: 100%;
 }
 
-.aaa .more-inf {
+.header__image .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .header__image {
     text-align: center;
   }
 }
 
-.centered-main__page-element {
+.main__content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.task__input,
+.task__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1
